@@ -1,0 +1,26 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+
+/* child and parents it can only go one down */
+.box > p {
+    color: firebrick;
+}
+
+/* selecting li from box its like ancestor and decent*/
+.box li {
+    color: blue;
+}
+
+
+/* chain we can give multiple classes and stuff in order to target specific element*/
+li.done{
+    color:seagreen;
+}
+
+/* in here we combine all first we selected ul from there we selected p and from p we selected 
+the one has class done */
+ul > p.done{
+font-size: 0.5rem;
+}

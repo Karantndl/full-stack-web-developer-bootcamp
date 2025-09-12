@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Media Query</title>
+  <style>
+    body {
+      background-color: aquamarine;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      font-size: 2rem;
+    }
+
+    /* Mobile Devices */
+    @media (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+    }
+
+    /* Tablets */
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+    }
+
+    /* Laptops */
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+
+    /* Desktops */
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  Resize the screen 👇
+</body>
+
+</html>
