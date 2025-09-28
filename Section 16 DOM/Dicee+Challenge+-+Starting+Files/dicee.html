@@ -26,26 +26,6 @@
 
     <footer>www 🎲 App Brewery 🎲 com</footer>
 
-    <script>
-      var playerOne = Math.floor(Math.random() * 6) + 1; //randon num genaretor 1 to 6
-      var playerTwo = Math.floor(Math.random() * 6) + 1; //randon num genaretor 1 to 6
-      var img1 = document.querySelector(".img1");
-      var img2 = document.querySelector(".img2");
-
-      // update dice images
-      img1.src = "./images/dice" + playerOne + ".png";
-      img2.src = "./images/dice" + playerTwo + ".png";
-
-      // show winner in the <h1>
-      var title = document.querySelector("h1");
-
-      if (playerOne > playerTwo) {
-        title.textContent = "🚩 Player 1 Wins!";
-      } else if (playerTwo > playerOne) {
-        title.textContent = "Player 2 Wins! 🚩";
-      } else {
-        title.textContent = "Draw!";
-      }
-    </script>
+    <script src="./dicee.js"></script>
   </body>
 </html>
