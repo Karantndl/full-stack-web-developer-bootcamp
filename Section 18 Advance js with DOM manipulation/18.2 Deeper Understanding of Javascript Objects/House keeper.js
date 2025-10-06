@@ -22,7 +22,7 @@ function housekeeps(name, age, yearsOfExperiance, languages) {
 var housekeep1 = new housekeeps("kdot", 20, 12, [
   "espaniol",
   "English",
-  "gujji",
+  "Punjabi",
 ]);
 
 var housekeep2 = new housekeeps("test", 23, 12, ["test1", "test2", "test3"]);
